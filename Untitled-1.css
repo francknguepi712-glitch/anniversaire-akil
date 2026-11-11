@@ -1,0 +1,23 @@
+/* COEURS ANIMES */
+body::before {
+    content: "💙  ♥️  💙  ♥️  💙";
+    position: fixed;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 20px;
+    opacity: 0.4;
+    animation: flotter 4s infinite alternate;
+    pointer-events: none;
+}
+
+@keyframes flotter {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
